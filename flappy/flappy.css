@@ -1,0 +1,48 @@
+#game-area {
+	border: 1px solid #000;
+	width: 1200px;
+	height: 600px;
+	overflow: hidden;
+	background-image: url("images/background.png");
+	background-size: cover;
+	position: relative;
+}
+
+#flappy {
+	position: absolute;
+	z-index: 10;
+	display: none;
+	width: 50px;
+	height: 50px;
+	background-image: url("images/swaggy.png");
+	background-size: cover;
+}
+
+#game-area .pipe {
+	display: none;
+	height: 300px;
+	width: 70px;
+	position: absolute;
+}
+
+#score {
+	font-size: 32px;
+	color: red;
+	font-weight: bold;
+}
+
+#game-area .pipe.upper {
+	top: 0;
+  	overflow: hidden;
+	background-image: url("images/pipe_upper.png");
+	background-position: 50% -107px;
+    background-size: 380px;
+}
+
+#game-area .pipe.lower {
+	bottom: 0;
+  	overflow: hidden;
+	background-image: url("images/pipe_lower.png");
+	background-position: 50% 0;
+    background-size: 380px;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "elena_maria",
+  "version": "1.0.0",
+  "description": "Alexa Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elena Maria",
+  "license": "ISC",
+  "alexa":{
+  	"applicationId":"amzn1.ask.skill.dc8fd534-f6fd-4984-abd0-034ede6ee324"
+  },
+  "dependencies":{
+  	"alexa-app":"^4.0.1",
+  	"request-promise":"^4.2.1"
+  }
+}
